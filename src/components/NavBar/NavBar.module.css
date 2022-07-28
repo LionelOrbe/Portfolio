@@ -1,0 +1,15 @@
+.container{
+    position: fixed;
+    left: 45vw;
+    
+    display: flex;
+    width: 10vw;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+.icon{
+    color: brown;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 20%;
+}
