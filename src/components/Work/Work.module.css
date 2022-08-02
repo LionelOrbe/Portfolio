@@ -1,0 +1,15 @@
+.container{
+    background: linear-gradient(to right,  #89216b, #da4453);
+    height: 75vh;
+    width: 90vw;;
+    animation: mymove 0.5s;
+    animation-fill-mode: forwards;
+    transform: translateY(-100vh);
+    
+    
+    
+}
+@keyframes mymove {
+    
+       to {transform: translateY(0vh)}
+  }
