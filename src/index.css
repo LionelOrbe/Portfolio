@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background-color: var(--color1);
+  transition: 0.5s;
 }
 
 code {
@@ -18,12 +19,13 @@ code {
   --color2: #222831;
   --color3: #30475E;
   --color4: #F05454;
-}
-
-[theme="light"]{
-  --color4: #DDDDDD;
-  --color3: #222831;
-  --color2: #30475E;
-  --color1: #F05454;
+  --switch: #30475E;
   
 }
+.dark-mode {
+  --color2: #DDDDDD;
+  --color1: #222831;
+  --switch: #EAE509;
+  transition: 0.5s;
+}
+

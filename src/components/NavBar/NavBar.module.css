@@ -24,7 +24,7 @@
     height: 2rem;
     border-radius: 20%;
     transition: 0.5s;
-    filter: drop-shadow(1px 1px 1px var(--color2));
+    filter: drop-shadow(1px 1px 1px var(--color3));
 }
 .icon:hover{
     /* filter: drop-shadow(0 0 0.2vw crimson); */
