@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Varino";
+    src: url("../../assets/Varino.otf");
+  }
 .container{
     display: flex;
     justify-content: space-evenly;
@@ -14,7 +18,7 @@
  }
 .photo{
       
-    background: url('../../assets/Lio.jpg');
+    background: url('../../assets/Lio.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -24,23 +28,34 @@
     border-radius: 67% 33% 73% 27% / 28% 65% 35% 72% ;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
+.photo:hover{
+    transform: rotate(-360deg);
+    transition: 0.5s;
+}
+.space{
+    width: 10px;
+}
 .name{
     display: flex;
     justify-content: center;
-    font-size: 4vw;
-    font-family: Candara;
+    font-size: 3.5vw;
+    font-family:"Varino";
     margin-bottom: 15px;
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
 }
 .info{
     width: 60%;
    color: #222831;
+   filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.5));
 }
 .letter{
     color: #DDDDDD;
 }
 .letter:hover{
+    color: var(--color4);
     transform: rotateY(360deg);
     transition: 0.5s;
+    filter: drop-shadow(1px 1px 3px rgba(255, 1, 1, 0.5));
 }
 @keyframes mymove {
     
@@ -58,10 +73,10 @@
     height: 40vw;
     }  
     .info{
-        margin-top: 20px;
+        margin-top: 40px;
         width: 80%;
         height: 40%;
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .name{
         font-size: 6vw;

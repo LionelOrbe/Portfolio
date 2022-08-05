@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 12vh;
+    margin-top: 10vh;
     height: 3rem;
     width: 90vw;
     font-family: sans-serif;
@@ -79,5 +79,8 @@ border: 1px solid var(--color3);
     .tabcontainer{
         
         color: brown;
-    }       
+    } 
+    .container{
+        height: 90vh;
+    }      
 }
