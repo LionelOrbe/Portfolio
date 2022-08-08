@@ -50,7 +50,7 @@
     justify-content: center;
     width: 60%;
    color: #222831;
-   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
+   /* filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5)); */
    height: 50%;
    
 }
