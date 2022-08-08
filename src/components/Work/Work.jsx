@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Work.module.css'
 import concer from '../../assets/concertek.jpg'
-import count from '../../assets/countries.png'
+import count from '../../assets/Countries.png'
 
 export default function Work() {
   return (
