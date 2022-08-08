@@ -5,6 +5,7 @@
     animation: mymove 0.5s;
     animation-fill-mode: forwards;
     transform: translateY(-100vh);
+    cursor: default;
     
     
     

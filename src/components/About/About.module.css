@@ -40,15 +40,22 @@
     justify-content: center;
     font-size: 3.5vw;
     font-family:"Varino";
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
 }
 .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 60%;
    color: #222831;
-   filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.5));
+   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
+   height: 50%;
+   
 }
 .letter{
+    
     color: #DDDDDD;
 }
 .letter:hover{
@@ -57,6 +64,8 @@
     transition: 0.5s;
     filter: drop-shadow(1px 1px 3px rgba(255, 1, 1, 0.5));
 }
+
+
 @keyframes mymove {
     
        to {transform: translateY(0vh)}

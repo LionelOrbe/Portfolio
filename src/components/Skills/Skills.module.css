@@ -6,11 +6,67 @@
     animation: mymove 0.5s;
     animation-fill-mode: forwards;
     transform: translateY(-100vh);
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     
     
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    border-bottom: 1px solid #DDDD;
     
+   
+}
+.icon{
+    padding: 10px;
+    color: #DDDD;
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}
+.icon:hover{
+    transform: scale(1.5);
+    filter: drop-shadow(1px 1px 2px rgba(255, 255, 255, 0.5));
+    transition: 0.2s;
+}
+.title {
+    color:#DDDD;
+    font-size: 1.5vw;
 }
 @keyframes mymove {
     
        to {transform: translateY(0vh)}
   }
+  @media (max-width: 800px) {
+    .container{
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        
+    }
+    
+    .div{
+        margin-top: 10px;
+        height: 90%;
+        width: fit-content;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px solid #DDDD;
+        border-radius: 5px;
+    } 
+    .title {
+        font-size: 3vw;
+    }
+ } 
+img {
+    width: 10vw;
+    padding: 10px;
+    
+}

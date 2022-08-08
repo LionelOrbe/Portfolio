@@ -1,11 +1,13 @@
 import React from 'react'
 import style from './About.module.css'
 
+
+
+
 export default function About() {
   return (
     <div className={style.container}>
       <div className={style.info}>
-        {/* <div>Hello I'am</div> */}
         <div className={style.name}>
         <div className={style.letter}>L</div>
         <div className={style.letter}>i</div>
@@ -19,7 +21,7 @@ export default function About() {
         <div className={style.letter}>b</div>
         <div className={style.letter}>e</div>
         </div>
-        <div>Full Stack Web Developer <br/>from  to </div>
+        <div className={style.full}>Full Stack Web Developer <br/>from Argentina to the World </div>
       </div>
       <div className={style.photo}></div>
 
