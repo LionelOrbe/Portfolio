@@ -1,7 +1,7 @@
 @import url(../../index.css);
 
 .container{
-    position: fixed;
+    position: absolute;
     left: calc(50vw - (12rem/2));
     display: flex;
     min-width: 12rem;

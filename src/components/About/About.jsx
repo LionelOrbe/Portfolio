@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './About.module.css'
+import img from '../../assets/Lio.jpeg'
 
 
 
@@ -23,7 +24,7 @@ export default function About() {
         </div>
         <div className={style.full}>Full Stack Web Developer <br/>from Argentina to the World </div>
       </div>
-      <div className={style.photo}></div>
+      <img src={img} alt='Lionel image' className={style.photo}/>
 
       
     </div>
