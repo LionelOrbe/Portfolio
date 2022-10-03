@@ -6,9 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  /* background-color: var(--color1); */
-  background-image: url('./assets/white.jpg');
-  background-size: cover;
+  background-color: var(--color1);
   transition: 0.5s;
 }
 
@@ -25,7 +23,6 @@ code {
   
 }
 .dark-mode {
-  background-image: url('./assets/black.png');
   --color2: #DDDDDD;
   --color1: #222831;
   --switch: #EAE509;
