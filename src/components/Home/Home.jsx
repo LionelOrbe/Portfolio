@@ -16,11 +16,11 @@ import 'tippy.js/dist/tippy.css';
 
 export default function Home() {
   const [tab, setTab] = useState(1);
-  const [darkmode, setDarkmode] = useState(true);
+  const [darkmode, setDarkmode] = useState(false);
 
   function dark() {
     var element = document.body;
-    element.classList.toggle("dark-mode");
+    element.classList.toggle("light-mode");
     if(darkmode){setDarkmode(false)}
     else {setDarkmode(true)}
     
