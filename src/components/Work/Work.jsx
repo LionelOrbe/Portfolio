@@ -4,6 +4,7 @@ import concer from '../../assets/concertek.jpg'
 import count from '../../assets/Countries.png'
 import port from '../../assets/portfolio.jpg'
 import marvel from '../../assets/marvel.png'
+import test from '../../assets/Test.png'
 
 export default function Work() {
   return (
@@ -35,6 +36,13 @@ export default function Work() {
          <img className={style.img} src={marvel} alt='marvel'/>
         </a>
         <div className={style.info}>React Native Mobile App</div>
+      </div>
+      <div className={style.card}>
+        <div className={style.title}>Front End Test</div>
+        <a href="https://lionelorbe.github.io/Test/" target="_blank" rel="noreferrer">
+         <img className={style.img} src={test} alt='test'/>
+        </a>
+        <div className={style.info}>HTML & CSS only web page</div>
       </div>
     </div>
   )
