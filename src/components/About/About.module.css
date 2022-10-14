@@ -16,6 +16,13 @@
     font-family: Lucida Sans;
     cursor: default;
  }
+ .video{
+    width: 100%;
+   
+    position: absolute;
+    top: 0px;
+    left:  0px;
+ }
 .photo{
     transition: 0.5s;
     width: 20vw;
@@ -50,17 +57,18 @@
    
 }
 .letter{
+    letter-spacing: 0.2rem;
     transition: 0.5s;
     color: #DDDDDD;
 }
 .letter:hover{
     color: var(--color4);
-    transform: rotateY(360deg) translateY(-5px) scale(1.2);
-    transition: 0.5s;
+    transform: /*rotateY(360deg)*/ translateY(-5px) scale(1.2);
+    transition: 0.2s;
     filter: drop-shadow(1px 1px 3px rgba(255, 1, 1, 0.5));
 }
 .full{
-    color: var(--color1);
+    color: #DDDDDD;
 }
 
 
@@ -88,6 +96,6 @@
     .name{
         font-size: 6vw;
     }
-    
+    .video{ display: none;}
    
 }

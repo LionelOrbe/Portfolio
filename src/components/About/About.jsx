@@ -1,6 +1,8 @@
 import React from 'react'
 import style from './About.module.css'
 import img from '../../assets/Lio.jpeg'
+import video from '../../assets/video.mp4'
+import poster from '../../assets/poster.png'
 
 
 
@@ -8,6 +10,9 @@ import img from '../../assets/Lio.jpeg'
 export default function About() {
   return (
     <div className={style.container}>
+      <div className={style.video}>
+      <video className={style.video} src={video} autoPlay muted loop poster={poster}></video>
+      </div>
       <div className={style.info}>
         <div className={style.name}>
         <div className={style.letter}>L</div>
@@ -24,7 +29,7 @@ export default function About() {
         </div>
         <div className={style.full}>Full Stack Web Developer <br/>from Argentina to the World </div>
       </div>
-      <img src={img} alt='Lionel image' className={style.photo}/>
+      <img src={img} alt='Lionel' className={style.photo}/>
 
       
     </div>
