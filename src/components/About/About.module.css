@@ -28,7 +28,7 @@
     width: 20vw;
     height: 20vw;
     border-radius: 67% 33% 73% 27% / 28% 65% 35% 72% ;
-    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+    filter: grayscale(50%) drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
 .photo:hover{
     scale: 1.2;
