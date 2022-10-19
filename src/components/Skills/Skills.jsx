@@ -1,8 +1,9 @@
 import React from 'react'
 import style from './Skills.module.css'
-import { SiJavascript,SiCss3,SiHtml5,SiReact,SiRedux,SiNodedotjs,SiExpress,SiSqlite,SiSequelize,SiPostgresql,SiVisualstudiocode,SiGit,SiGithub,SiFigma,SiTrello } from 'react-icons/si';
+import { SiBootstrap,SiMaterialui, SiJavascript,SiCss3,SiHtml5,SiReact,SiRedux,SiNodedotjs,SiExpress,SiSqlite,SiSequelize,SiPostgresql,SiVisualstudiocode,SiGit,SiGithub,SiFigma,SiTrello } from 'react-icons/si';
 import efset from '../../assets/efset.png'
 import henry from '../../assets/henry.png'
+import {TbBrandReactNative} from 'react-icons/tb';
 
 export default function Skills() {
   return (
@@ -21,9 +22,18 @@ export default function Skills() {
         <a href="https://es.reactjs.org/" target="_blank" rel="noreferrer">
           <SiReact className={style.icon}/>
         </a>  
+        <a href="https://reactnative.dev/" target="_blank" rel="noreferrer">
+          <TbBrandReactNative className={style.icon}/>
+        </a> 
         <a href="https://redux.js.org/" target="_blank" rel="noreferrer">
           <SiRedux className={style.icon}/>
         </a>  
+        <a href="https://mui.com/" target="_blank" rel="noreferrer">
+          <SiMaterialui className={style.icon}/>
+        </a>  
+        <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">
+          <SiBootstrap className={style.icon}/>
+        </a>
       </div>
       <div className={style.div}>
       <div className={style.title}>BackEnd</div>

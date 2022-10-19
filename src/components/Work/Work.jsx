@@ -32,7 +32,7 @@ export default function Work() {
       </div>
       <div className={style.card}>
         <div className={style.title}>Marvel App</div>
-        <a href="https://drive.google.com/file/d/1qVHwPV3_SeMgpz4IyTKlryMhVZSGmAmc/view?usp=sharing" target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1EF1ZvBpsnXy-1wrg6qE-De3c72DmUXwF/view?usp=sharing" target="_blank" rel="noreferrer">
          <img className={style.img} src={marvel} alt='marvel'/>
         </a>
         <div className={style.info}>React Native Mobile App</div>
