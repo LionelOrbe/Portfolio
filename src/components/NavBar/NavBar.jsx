@@ -3,7 +3,7 @@ import { BsLinkedin ,BsGithub,BsFileEarmarkPerson} from "react-icons/bs";
 import style from '../NavBar/NavBar.module.css'
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
-import pdf from '../../assets/Lionel Orbe - Full Stack - EN.pdf'
+import pdf from '../../assets/Lionel Orbe FullStack EN.pdf'
 
 export default function NavBar() {
   return (
