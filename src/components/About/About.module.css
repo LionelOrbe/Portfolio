@@ -24,11 +24,13 @@
     left:  0px;
  }
 .photo{
+    margin-top: -20px;
     transition: 0.5s;
     width: 20vw;
     height: 20vw;
     border-radius: 67% 33% 73% 27% / 28% 65% 35% 72% ;
     filter: grayscale(50%) drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+    -webkit-box-reflect: below -10px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5));
 }
 .photo:hover{
     scale: 1.2;
@@ -54,7 +56,7 @@
    color: #222831;
    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
    height: 50%;
-   
+   -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 .letter{
     letter-spacing: 0.2rem;
@@ -92,6 +94,7 @@
         width: 80%;
         height: 40%;
         font-size: 3.5vw;
+        -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0));
     }
     .name{
         font-size: 6vw;
