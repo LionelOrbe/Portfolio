@@ -56,8 +56,7 @@
    color: #222831;
    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
    height: 50%;
-   -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
-}
+  }
 .letter{
     letter-spacing: 0.2rem;
     transition: 0.5s;
