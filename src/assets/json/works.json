@@ -1,0 +1,46 @@
+{
+  "works": [
+    {
+      "title": "ZOZZI App",
+      "link": "https://zozzi.co/",
+      "image": "zozzi.png",
+      "description": "Agricultural properties management"
+    },
+    {
+      "title": "TuG POS",
+      "link": "https://www.tugerente.com/app-tugerente",
+      "image": "tug.png",
+      "description": "Point of Sale App for tuGerente"
+    },
+    {
+      "title": "ConcerTeck",
+      "description": "E-commerce dedicated to event ticket sales",
+      "image": "concertek.jpg",
+      "link": "https://concer-teck-front-end.vercel.app/"
+    },
+    {
+      "title": "Countries App",
+      "description": "Countries information App",
+      "image": "Countries.png",
+      "link": "https://www.youtube.com/watch?v=rtmtSnT4Np4&t=6s"
+    },
+    {
+      "title": "Portfolio",
+      "link": "https://eugeniabartolome.vercel.app/home",
+      "image": "portfolio.jpg",
+      "description": "Translator portfolio App"
+    },
+    {
+      "title": "Marvel App",
+      "link": "https://drive.google.com/file/d/1EF1ZvBpsnXy-1wrg6qE-De3c72DmUXwF/view?usp=sharing",
+      "image": "marvel.png",
+      "description": "React Native Mobile App"
+    },
+    {
+      "title": "Front End Test",
+      "link": "https://lionelorbe.github.io/Test/",
+      "image": "Test.png",
+      "description": "HTML & CSS only web page"
+    }
+  ]
+}

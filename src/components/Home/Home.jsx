@@ -37,30 +37,30 @@ export default function Home() {
         <div className={style.tabcontainer}>
         <Tippy content="Home">
           <div>
-          <AiOutlineHome onClick={()=>setTab(1)} className={tab==1?style.selected : style.icon}/> 
+          <AiOutlineHome onClick={()=>setTab(1)} className={tab===1?style.selected : style.icon}/> 
           </div>
         </Tippy>
         <Tippy content="Skills">
           <div>
-          <AiOutlineFileProtect onClick={()=>setTab(2)} className={tab==2?style.selected : style.icon}/> 
+          <AiOutlineFileProtect onClick={()=>setTab(2)} className={tab===2?style.selected : style.icon}/> 
           </div>
         </Tippy>
         <Tippy content="Work">
           <div>
-          <MdWorkOutline onClick={()=>setTab(3)} className={tab==3?style.selected : style.icon}/> 
+          <MdWorkOutline onClick={()=>setTab(3)} className={tab===3?style.selected : style.icon}/> 
           </div>
         </Tippy>
         <Tippy content="Contact">
           <div>
-          <MdOutlineContactPhone onClick={()=>setTab(4)} className={tab==4?style.selected : style.icon}/> 
+          <MdOutlineContactPhone onClick={()=>setTab(4)} className={tab===4?style.selected : style.icon}/> 
           </div>
         </Tippy>
         </div>
           <div className={style.content}>
-            {tab==1? <About/> : null}
-            {tab==2? <Skills/> : null}
-            {tab==3? <Work/> : null}
-            {tab==4? <Contact/> : null}
+            {tab===1? <About/> : null}
+            {tab===2? <Skills/> : null}
+            {tab===3? <Work/> : null}
+            {tab===4? <Contact/> : null}
           </div>
         </div>
         
