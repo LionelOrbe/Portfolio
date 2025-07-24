@@ -13,6 +13,12 @@
       "description": "Point of Sale App for tuGerente"
     },
     {
+      "title": "Copate App",
+      "link": "https://play.google.com/store/apps/details?id=com.lionelorbe.Copate&pcampaignid=web_share",
+      "image": "copate.png",
+      "description": "Timer for menstrual cup users"
+    },
+    {
       "title": "ConcerTeck",
       "description": "E-commerce dedicated to event ticket sales",
       "image": "concertek.jpg",
