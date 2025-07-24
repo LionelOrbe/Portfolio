@@ -27,7 +27,7 @@ export default function About() {
         <div className={style.letter}>b</div>
         <div className={style.letter}>e</div>
         </div>
-        <div className={style.full}>Full Stack Web Developer <br/>from Argentina to the World </div>
+        <div className={style.full}>Frontend / Mobile Developer <br/>from Argentina to the World </div>
       </div>
       <img src={img} alt='Lionel' className={style.photo}/>
 

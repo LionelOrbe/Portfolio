@@ -3,7 +3,7 @@ import { BsLinkedin ,BsGithub,BsFileEarmarkPerson} from "react-icons/bs";
 import style from '../NavBar/NavBar.module.css'
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
-import pdf from '../../assets/Lionel Orbe FullStack EN.pdf'
+import pdf from '../../assets/Lionel Orbe - Frontend Developer.pdf'
 
 export default function NavBar() {
   return (
@@ -24,7 +24,7 @@ export default function NavBar() {
       </Tippy>
       <Tippy content="Download my CV">
         <div>
-        <a href={pdf} target="_blank" rel="noreferrer" download='Lionel Orbe - Full Stack - EN.pdf'>
+        <a href={pdf} target="_blank" rel="noreferrer" download='Lionel Orbe - Frontend Developer.pdf'>
           <BsFileEarmarkPerson className={style.icon}/>
         </a>
         </div>
